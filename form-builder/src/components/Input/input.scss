@@ -1,0 +1,31 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    label {
+        margin-bottom: 12px;
+        text-align: initial;
+    }
+
+    
+
+    input {
+        padding: 4px;
+        height: 26px;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    
+
+    .radio-type-block {
+        display: flex;
+    }
+
+    .error {
+        display: flex;
+        color: rgb(199, 12, 49);
+        font-size: 14px;
+    }
+}

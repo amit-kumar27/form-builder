@@ -1,0 +1,118 @@
+{
+    "template1": [
+        {
+            "type": "text",
+            "label": "First Name",
+            "name": "firstName",
+            "placeholder": "Enter First Name",
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please enter first name"
+                }
+            ]
+            
+
+        },
+        {
+            "type": "text",
+            "label": "Last Name",
+            "name": "lastName",
+            "placeholder": "Enter Last Name",
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please enter first name"
+                }
+            ]
+
+        },
+        {
+            "type": "radio",
+            "label": "Gender",
+            "name": "gender",
+            "options": [
+                { "key": "Male",  "value": "Male"}, 
+                {"key": "Female",  "value": "Female"} 
+            ],
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please select gender"
+                }
+            ]
+        },
+        {
+            "type": "submit",
+            "value": "Submit"
+        }
+    ],
+    "template2": [
+        {
+            "type": "text",
+            "label": "First Name",
+            "name": "fName",
+            "placeholder": "Enter First Name",
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please enter first name"
+                }
+            ]
+
+        },
+        {
+            "type": "text",
+            "label": "Last Name",
+            "name": "lName",
+            "placeholder": "Enter Last Name",
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please enter last name"
+                }
+            ]
+
+        },
+        {
+            "type": "password",
+            "label": "Password",
+            "name": "password",
+            "placeholder": "Enter Password",
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please enter valid password"
+                },
+                {
+                    "name": "minLength",
+                    "length": 8,
+                    "errorMsg": "Minimum length for password is 8 characters"
+                }
+
+            ]
+
+        },
+        {
+            "type": "checkbox",
+            "label": "Qualification",
+            "name": "qualification",
+            "options": [
+                { "key": "Graduate",  "value": "Graduate"}, 
+                { "key": "Post Graduate",  "value": "PostGraduate"}
+            ],
+            "validations": [
+                {
+                    "name": "require",
+                    "errorMsg": "Please select one qualification"
+                }
+            ]
+
+        },
+        {
+            "type": "submit",
+            "value": "Submit"
+        }
+    ]
+
+}
